@@ -9,4 +9,4 @@ Grab your shovel 🪓, sharpen your wit, and join me on this graveyard shift of 
 Let’s dig deep, code hard, and haunt this yard with epic solutions. Welcome to the grind, welcome to my LEETYARD. 🚀💀
 ## 🏆Me LeetCode Stats
 
-![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=letaggucode&theme=dark&hide_border=false)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/letaggucode?theme=dark&extension=activity)](https://leetcard.jacoblin.cool/letaggucode?theme=dark&extension=activity)
