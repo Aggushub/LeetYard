@@ -18,7 +18,8 @@ Welcome to the grind, welcome to my **LEETYARD**. 🚀💀
 
 ## 🧟‍♂️ Shovel Deeper (Medals So Far).....
 
-<img src="https://miro.medium.com/v2/resize:fit:720/1*YJty0oZ9A55kiUZH-yu-4A.gif" width="100"/>
+<img src="https://miro.medium.com/v2/resize:fit:720/1*YJty0oZ9A55kiUZH-yu-4A.gif" width="100"/> <img src="2550.gif" width="100"/>
+
 
 > *From Pandas to puzzles — we don’t just learn, we unearth.* 🐼💀  
 > *Welcome to the grindshift. No bug survives the graveyard.*
