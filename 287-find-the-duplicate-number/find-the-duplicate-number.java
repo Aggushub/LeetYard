@@ -1,12 +1,12 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-        int hare = 0;
+        int rabbit = 0;
         int turtle = 0;
 
         while(true){
-            hare = nums[nums[hare]];
+            rabbit = nums[nums[rabbit]];
             turtle = nums[turtle];
-            if (hare == turtle){
+            if (rabbit == turtle){
                 int pointer = 0;
                 while(pointer != turtle){
                     pointer = nums[pointer];
