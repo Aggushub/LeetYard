@@ -1,3 +1,8 @@
-class Solution:
-    def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        return list(set(nums1) & set(nums2))
+class Solution(object):
+    def intersection(self, nums1, nums2):
+        nums3 = []
+        for i in range(len(nums1)):
+            for j in range(len(nums2)):
+                if nums1[i] == nums2[j] and nums1[i] not in nums3:
+                    nums3.append(nums1[i])
+        return nums3
