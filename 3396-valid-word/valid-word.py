@@ -1,8 +1,13 @@
 import re
-class Solution(object):
-    def isValid(self, word):
-        if len(word)>=3 and word.isalnum() and re.search(r'[aeiouAEIOU]',word) and re.search(r'[bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ]',word):
-            return True
-        else:
+class Solution:
+    def isValid(self, word: str) -> bool:
+        if len(word)<3:
             return False
-        
+        if not word.isalnum():
+            return False
+        if not re.search(r'[aeiouAEIOU]',word):
+            return False
+        if not re.search(r'[bcdfghjklmnpqrstwxyzBCDFGHJKLMNPQRSTWXYZ]',word):
+            return False
+
+        return True
