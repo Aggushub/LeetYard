@@ -4,8 +4,8 @@ var lengthOfLongestSubstring = function(s) {
     const seen = {};
     for (let i = 0;i < s.length;i++){
         let char = s[i];
-        if (char in seen && seen[char]+1 > start){
-            start = seen[char]+1;
+        if (char in seen){
+            start = Math.max(start, seen[char]+1);
         }
         seen[char] = i;
         max = Math.max(max, i+1-start);
