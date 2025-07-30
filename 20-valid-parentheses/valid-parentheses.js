@@ -25,8 +25,5 @@ var isValid = function(s) {
             top = s[i];
     }
     }
-    if (stack.length === 0)
-    return true;
-    else
-    return false;
+    return stack.length === 0;
 };
