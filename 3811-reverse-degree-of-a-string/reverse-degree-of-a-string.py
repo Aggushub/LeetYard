@@ -1,5 +1,5 @@
-class Solution(object):
-    def reverseDegree(self, s):
+class Solution:
+    def reverseDegree(self, s: str) -> int:
         op = 0
         index = 1
         for digit in s:
@@ -7,5 +7,3 @@ class Solution(object):
             op += (index * val)
             index += 1
         return op
-        
-        
