@@ -1,7 +1,3 @@
-/**
- * @param {number} n
- * @return {number[]}
- */
 var getNoZeroIntegers = function(n) {
     for (let i= 0;i<n;i++){
         if (String(i).includes('0'))
