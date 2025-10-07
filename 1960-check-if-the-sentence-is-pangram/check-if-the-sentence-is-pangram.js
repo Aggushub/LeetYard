@@ -1,10 +1,6 @@
-/**
- * @param {string} sentence
- * @return {boolean}
- */
 var checkIfPangram = function(sentence) {
     let hash = new Set();
-    
+
     for (each of sentence)
     hash.add(each);
 
