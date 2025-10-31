@@ -1,11 +1,11 @@
 class Solution:
     def getSneakyNumbers(self, nums: List[int]) -> List[int]:
+        sneakers = []
         hash = {}
-        out = []
         for each in nums:
-            if each not in hash:
-                hash[each] = 1
+            if each in hash:
+                sneakers.append(each)
             else:
-                out.append(each)
-        return out
+                hash[each] = 1
+        return sneakers
         
