@@ -1,12 +1,10 @@
-class Solution:
-    def isOneBitCharacter(self, bits: List[int]) -> bool:
-        if all(x==0 for x in bits) == True:
-            return True
-        stack = []
-        while(len(bits)> 1):
-            if bits[0] == 1:
-                bits.pop(0)
-                bits.pop(0)
+class Solution(object):
+    def isOneBitCharacter(self, bits):
+        i = 0
+        length = len(bits)-1
+        while i < length:
+            if bits[i] == 1:
+                i +=2
             else:
-                stack = bits.pop(0)
-        return len(bits) == 1
+                i += 1
+        return i == length
