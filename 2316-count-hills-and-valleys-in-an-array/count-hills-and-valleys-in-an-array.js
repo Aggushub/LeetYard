@@ -4,14 +4,10 @@ var countHillValley = function(nums) {
     for (let i = 1;i<nums.length-1;i++){
         let left = i - 1;
         let right = i + 1;
-        while(nums[left] == nums[i]){
-            if (left === 0)
-            break;
+        while(nums[left] == nums[i] && left >0){
             left--;
         }
-        while(nums[right] == nums[i]){
-            if (right === nums.length-1)
-            break;
+        while(nums[right] == nums[i] && right < nums.length -1){
             right++;
         }
         if(nums[left]> nums[i] && nums[right] > nums[i]){
