@@ -5,7 +5,7 @@ class Solution {
         Arrays.sort(sorted);
         int[] output = new int[l];
 
-        Map<Integer,Integer> hash = new HashMap<>();
+        HashMap<Integer,Integer> hash = new HashMap<>();
 
         for (int i = 0; i < l; i++){
             hash.putIfAbsent(sorted[i],i);
