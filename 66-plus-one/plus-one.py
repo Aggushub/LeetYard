@@ -16,11 +16,7 @@ class Solution:
                 else:
                     # moment that it's not required ie numbers like 9099, can just return.
                     return digits
-        # when maximum = 1, so digits[1] = 10, it'll +1 to digits[0], but won't run the loop since maximum = 0.
-        # thus not worried about early returns.
-
-        # if digits[0] is 10, since it went through the entire loop without being returned, means the entire list
-        # was 9, so means need insert a 1 in front, else if not 10 just return the list.
+        
         if digits[0] == 10:
             digits[0] = 0
             digits.insert(0, 1)
