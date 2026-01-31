@@ -1,14 +1,9 @@
 class Solution:
     def nextGreatestLetter(self, letters: List[str], target: str) -> str:
-        output = 123
-        flag = 0
-        for each in letters:
-            if ord(each)> ord(target):
-                output = min(output,ord(each))
-                flag = 1
-        if flag == 0:
-            return letters[0]
+        n = len(letters)
+        for i in range(n):
+            if ord(letters[i]) > ord(target) :
+                return letters[i]
         else:
-
-            return chr(output)
+            return letters[0]
         
