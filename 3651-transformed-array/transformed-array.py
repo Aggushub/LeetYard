@@ -8,8 +8,8 @@ class Solution:
                 output[i] = nums[index]
             elif nums[i] < 0:
                 index = ((l + i) + (nums[i])) % l
-                output[i] = nums[index]
+                output[i] = nums[abs(index)]
             else:
-                output[i] = nums[i]
+                output[i] = 0
         return output
         
