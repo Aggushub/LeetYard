@@ -20,10 +20,10 @@ Welcome to the grind, welcome to my **LEETYARD**. 🚀💀
 
 ## 🧟‍♂️ Shovel Deeper (Medals So Far).....
 
-<img src="https://miro.medium.com/v2/resize:fit:720/1*YJty0oZ9A55kiUZH-yu-4A.gif" width="100"/> <img src="2550.gif" width="100"/> <img src="25100.gif" width="100"/>
+<img src="https://miro.medium.com/v2/resize:fit:720/1*YJty0oZ9A55kiUZH-yu-4A.gif" width="100"/> <img src="2550.gif" width="100"/> <img src="25100.gif" width="100"/> <img src="2650.gif" width = "100"/>
 
 > *From Pandas to problems, from syntax to survival — this is where bugs get buried.*<br>
-> *Three medals earned. Countless battles ahead. 🏅🏅*<br>
+> *Four medals earned. Countless battles ahead. 🏅🏅*<br>
 > *Welcome to the grindshift. This yard doesn’t forget. 💀⚰️*
 
 ---
