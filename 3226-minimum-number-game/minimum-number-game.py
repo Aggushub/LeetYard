@@ -1,5 +1,5 @@
-class Solution(object):
-    def numberGame(self, nums):
+class Solution:
+    def numberGame(self, nums: List[int]) -> List[int]:
         output = []
         while nums:
             A = min(nums)
