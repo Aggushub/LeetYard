@@ -1,8 +1,6 @@
-SELECT DISTINCT num AS ConsecutiveNums
-FROM (
-    SELECT num,
-    LAG(num, 1) OVER (ORDER BY id) AS prev1,
-    LAG(num, 2) OVER (ORDER BY id) AS prev2
-    FROM Logs
-) t
-WHERE num = prev1 AND num = prev2;
+SELECT DISTINCT a.num AS consecutivenums
+FROM Logs a
+INNER JOIN Logs b
+ON a.num = b.num AND a.id + 1 = b.id
+INNER JOIN Logs c
+ON b.num = c.num AND b.id + 1 = c.id; 
